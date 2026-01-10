@@ -32,9 +32,15 @@ The APK is available in the **Releases** section under "initial beta".
 ## 🖼️ Screenshots
 
 <p align="center">
-  <img src="screenshots/chat_screen.png" width="30%" alt="Chat Interface" />
-  <img src="screenshots/model_management.png" width="30%" alt="Model Management" />
-  <img src="screenshots/stats_screen.png" width="30%" alt="Mood Statistics" />
+  <img src="main/screenshots/5.jpeg" width="30%" alt="Home Screen" />
+  <img src="main/screenshots/3.jpeg" width="30%" alt="Private AI Chat" />
+  <img src="main/screenshots/1.jpeg" width="30%" alt="Stats and Emotion Log" />
+</p>
+
+<p align="center">
+  <img src="main/screenshots/2.jpeg" width="30%" alt="Adding New Habit" />
+  <img src="main/screenshots/6.jpeg" width="30%" alt="Habit Focus Timer" />
+  <img src="main/screenshots/4.jpeg" width="30%" alt="Model Import Instructions" />
 </p>
 
 ---
