@@ -1,6 +1,6 @@
-# 🌟 Personal Emotion & Habit Tracker
+# 🌟 Echo AI: Personal Emotion & Habit Tracker
 
-A comprehensive Android application designed to help you track your emotions, build positive habits, and gain insights into your mental well-being.
+Echo AI is a privacy-first personal assistant and productivity companion designed to help you track your emotions, build positive habits, and gain insights into your well-being. By combining powerful **on-device AI** with daily tracking tools, Echo AI ensures your data never leaves your device.
 
 ## 📥 Download
 
@@ -8,64 +8,76 @@ A comprehensive Android application designed to help you track your emotions, bu
 
 The APK is available in the **Releases** section under "initial beta". 
 
+---
+
 ## ✨ Features
 
-- **Emotion Tracking**: Log and monitor your daily emotions
-- **Habit Building**: Create and track positive habits
-- **Personal Insights**: Gain insights into your emotional patterns and habit progress
-- **User-Friendly Interface**: Simple and intuitive design for easy daily use
-- **Privacy First**: Your data stays on your device
+### 🤖 Private AI Chat & Intelligence
+- **Offline Conversations**: Chat with state-of-the-art LLMs (Gemma, Qwen, etc.) 100% offline.
+- **Multi-Model Support**: Import and switch between different AI models (`.litertlm` or `.task`) easily.
+- **Customizable Assistant**: Fine-tune AI response creativity with adjustable Temperature, Top-K, and Top-P settings.
+
+### 📊 Emotion & Habit Tracking
+- **Emotion Logging**: Monitor your daily emotional patterns and triggers.
+- **Habit Building**: Create, track, and maintain positive daily routines.
+- **Personal Insights**: Gain deep insights into your mental well-being and habit progress over time.
+
+### ⏱️ Productivity & Design
+- **Focus Timer**: Built-in tools to help you stay in the flow.
+- **Privacy First**: No accounts, no cloud, no tracking. Your data stays on your device.
+- **User-Friendly UI**: Modern Material 3 design with full Dark Mode support and sleek animations.
+
+---
+
+## 🖼️ Screenshots
+
+<p align="center">
+  <img src="screenshots/chat_screen.png" width="30%" alt="Chat Interface" />
+  <img src="screenshots/model_management.png" width="30%" alt="Model Management" />
+  <img src="screenshots/stats_screen.png" width="30%" alt="Mood Statistics" />
+</p>
+
+---
 
 ## 🚀 Getting Started
 
-### Installation
+### 1. Installation
+1. Download the APK from the [Releases](https://github.com/AnishKMBtech/personal_emotion_habit_tracker/releases) page.
+2. Enable "Install from Unknown Sources" on your Android device if prompted.
+3. Open the APK and follow the installation instructions.
 
-1. Download the APK from the [Releases](https://github.com/AnishKMBtech/personal_emotion_habit_tracker/releases) page
-2. Enable "Install from Unknown Sources" on your Android device if prompted
-3. Open the downloaded APK file and follow the installation instructions
-4. Launch the app and start tracking! 
+### 2. Loading the AI Model
+To use the chat feature, you'll need to download a compatible model file:
+1. Visit the [Hugging Face Model Repository](https://huggingface.co/ANISH-j/models-for-echo-application/tree/main).
+2. Download a `.litertlm` or `.task` file (e.g., Qwen-0.5B).
+3. In the app, go to **Settings -> AI Models** and click the `+` icon.
+4. Name your model, use **"Pick File"** to select the download, and register it!
 
-### Requirements
-
-- Android device running Android 5.0 (Lollipop) or higher
-- Approximately 10-20 MB of free storage space
-
-## 📱 Usage
-
-1. **Track Your Emotions**: Record how you're feeling throughout the day
-2. **Set Habits**: Define habits you want to build or break
-3. **Review Progress**: Check your emotional patterns and habit streaks
-4. **Gain Insights**: Understand your well-being journey over time
+---
 
 ## 🛠️ Technology Stack
 
 - **Platform**: Android
-- **Language**: [Kotlin/Java]
-- **Build System**: Gradle
+- **Language**: Kotlin / Java
+- **AI Engine**: LiteRT for Mobile (On-Device Inference)
+- **Database**: Room (Local Storage)
+- **UI Framework**: Jetpack Compose (Material 3)
 
-## 🐛 Known Issues (Beta Version)
+## 🔒 Privacy
 
-This is a beta release. If you encounter any bugs or issues, please: 
-1. Open an [Issue](https://github.com/AnishKMBtech/personal_emotion_habit_tracker/issues)
-2. Provide detailed steps to reproduce the problem
-3. Include your Android version and device model
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/AnishKMBtech/personal_emotion_habit_tracker/issues).
-
-## 📝 License
-
-This project is currently in beta. License information will be added in future releases.
+Echo AI is built on the principle that your data belongs to you. We do not collect, store, or transmit your personal data, habit logs, or chat history to any external servers.
 
 ## 👨‍💻 Developer
 
 **Anish** - [@AnishKMBtech](https://github.com/AnishKMBtech)
 
-## 📧 Support
+## 🐛 Known Issues & Contributing
 
-If you have any questions or need support, please open an issue or contact the developer through GitHub.
+This is a **beta release**. If you encounter bugs or want to suggest features:
+1. Open an [Issue](https://github.com/AnishKMBtech/personal_emotion_habit_tracker/issues).
+2. Provide your Android version and device model.
+3. Contributions are welcome! Feel free to check the issues page.
 
 ---
 
-**Note**: This is a beta version.  Features and functionality may change in future releases. 
+**Note**: Features and functionality may change in future releases. 
